@@ -1,0 +1,301 @@
+<head>
+<link rel="stylesheet" href="umfrage.css">
+</head>
+
+<div id="main">
+  <div id="bg"></div>
+  <div id="cover"></div>
+  <div id="form-outer">
+    <div id="form-container">
+      <h4 id="pre-title"><a href="https://gigafactory-survey.github.io/de/">DE</a> <a href="https://gigafactory-survey.github.io/eng/">ENG</a></h4>
+      <h1 id="title">Traffic-Investigation Tesla Gigafactory Berlin-Brandenburg</h1>
+      <p id="description">
+        The following questions deal with your commute to the Tesla Gigafactory (as part of a logistics analysis) and will take no longer than 5 minutes to answer.<br>Thank you for your participation!
+		</p>
+      <form id="survey-form" action="https://formsubmit.co/gigafactory.survey@gmail.com" method="POST">
+        <div class="form-row">
+          <label id="number-label" for="age">1. Your Age  <span class="required">*</span></label>
+          <input id="Eins" type="text" name="Eins" class="input-field-1" maxlength="2" placeholder="Your Age" required>
+        </div>
+        <div class="form-row">
+          <label for="currentPos">2. From where do you drive to the Gigafactory? <span class="required">*</span></label>
+          <select id="dropdown" name="CurrentPos" class="dropdown input-field-1" required>
+            <option value="Berlin-Adlershof
+">Berlin-Adlershof
+</option><option value="Berlin-Alt-Hohenschönhausen
+">Berlin-Alt-Hohenschönhausen
+</option><option value="Berlin-Alt-Treptow
+">Berlin-Alt-Treptow
+</option><option value="Berlin-Altglienicke
+">Berlin-Altglienicke
+</option><option value="Berlin-Baumschulenweg
+">Berlin-Baumschulenweg
+</option><option value="Berlin-Biesdorf
+">Berlin-Biesdorf
+</option><option value="Berlin-Blankenburg
+">Berlin-Blankenburg
+</option><option value="Berlin-Blankenfelde
+">Berlin-Blankenfelde
+</option><option value="Berlin-Bohnsdorf
+">Berlin-Bohnsdorf
+</option><option value="Berlin-Borsigwalde
+">Berlin-Borsigwalde
+</option><option value="Berlin-Britz
+">Berlin-Britz
+</option><option value="Berlin-Buch
+">Berlin-Buch
+</option><option value="Berlin-Buckow
+">Berlin-Buckow
+</option><option value="Berlin-Charlottenburg
+">Berlin-Charlottenburg
+</option><option value="Berlin-Charlottenburg-Nord
+">Berlin-Charlottenburg-Nord
+</option><option value="Berlin-Dahlem
+">Berlin-Dahlem
+</option><option value="Berlin-Falkenberg
+">Berlin-Falkenberg
+</option><option value="Berlin-Falkenhagener Feld
+">Berlin-Falkenhagener Feld
+</option><option value="Berlin-Fennpfuhl
+">Berlin-Fennpfuhl
+</option><option value="Berlin-Französisch Buchholz
+">Berlin-Französisch Buchholz
+</option><option value="Berlin-Friedenau
+">Berlin-Friedenau
+</option><option value="Berlin-Friedrichsfelde
+">Berlin-Friedrichsfelde
+</option><option value="Berlin-Friedrichshagen
+">Berlin-Friedrichshagen
+</option><option value="Berlin-Friedrichshain
+">Berlin-Friedrichshain
+</option><option value="Berlin-Frohnau
+">Berlin-Frohnau
+</option><option value="Berlin-Gatow
+">Berlin-Gatow
+</option><option value="Berlin-Gesundbrunnen
+">Berlin-Gesundbrunnen
+</option><option value="Berlin-Gropiusstadt
+">Berlin-Gropiusstadt
+</option><option value="Berlin-Grünau
+">Berlin-Grünau
+</option><option value="Berlin-Grunewald
+">Berlin-Grunewald
+</option><option value="Berlin-Hakenfelde
+">Berlin-Hakenfelde
+</option><option value="Berlin-Halensee
+">Berlin-Halensee
+</option><option value="Berlin-Hansaviertel
+">Berlin-Hansaviertel
+</option><option value="Berlin-Haselhorst
+">Berlin-Haselhorst
+</option><option value="Berlin-Heiligensee
+">Berlin-Heiligensee
+</option><option value="Berlin-Heinersdorf
+">Berlin-Heinersdorf
+</option><option value="Berlin-Hellersdorf
+">Berlin-Hellersdorf
+</option><option value="Berlin-Hermsdorf
+">Berlin-Hermsdorf
+</option><option value="Berlin-Johannisthal
+">Berlin-Johannisthal
+</option><option value="Berlin-Karlshorst
+">Berlin-Karlshorst
+</option><option value="Berlin-Karow
+">Berlin-Karow
+</option><option value="Berlin-Kaulsdorf
+">Berlin-Kaulsdorf
+</option><option value="Berlin-Kladow
+">Berlin-Kladow
+</option><option value="Berlin-Konradshöhe
+">Berlin-Konradshöhe
+</option><option value="Berlin-Köpenick
+">Berlin-Köpenick
+</option><option value="Berlin-Kreuzberg
+">Berlin-Kreuzberg
+</option><option value="Berlin-Lankwitz
+">Berlin-Lankwitz
+</option><option value="Berlin-Lichtenberg
+">Berlin-Lichtenberg
+</option><option value="Berlin-Lichtenrade
+">Berlin-Lichtenrade
+</option><option value="Berlin-Lichterfelde
+">Berlin-Lichterfelde
+</option><option value="Berlin-L�bars
+">Berlin-L�bars
+</option><option value="Berlin-Mahlsdorf
+">Berlin-Mahlsdorf
+</option><option value="Berlin-Malchow
+">Berlin-Malchow
+</option><option value="Berlin-Mariendorf
+">Berlin-Mariendorf
+</option><option value="Berlin-Marienfelde
+">Berlin-Marienfelde
+</option><option value="Berlin-Märkisches Viertel
+">Berlin-Märkisches Viertel
+</option><option value="Berlin-Marzahn
+">Berlin-Marzahn
+</option><option value="Berlin-Mitte
+">Berlin-Mitte
+</option><option value="Berlin-Moabit
+">Berlin-Moabit
+</option><option value="Berlin-M�ggelheim
+">Berlin-M�ggelheim
+</option><option value="Berlin-Neu-Hohenschönhausen
+">Berlin-Neu-Hohenschönhausen
+</option><option value="Berlin-Neukölln
+">Berlin-Neukölln
+</option><option value="Berlin-Niederschöneweide
+">Berlin-Niederschöneweide
+</option><option value="Berlin-Niederschönhausen
+">Berlin-Niederschönhausen
+</option><option value="Berlin-Nikolassee
+">Berlin-Nikolassee
+</option><option value="Berlin-Oberschöneweide
+">Berlin-Oberschöneweide
+</option><option value="Berlin-Pankow
+">Berlin-Pankow
+</option><option value="Berlin-Plänterwald
+">Berlin-Plänterwald
+</option><option value="Berlin-Prenzlauer Berg
+">Berlin-Prenzlauer Berg
+</option><option value="Berlin-Rahnsdorf
+">Berlin-Rahnsdorf
+</option><option value="Berlin-Reinickendorf
+">Berlin-Reinickendorf
+</option><option value="Berlin-Rosenthal
+">Berlin-Rosenthal
+</option><option value="Berlin-Rudow
+">Berlin-Rudow
+</option><option value="Berlin-Rummelsburg
+">Berlin-Rummelsburg
+</option><option value="Berlin-Schlachtensee
+">Berlin-Schlachtensee
+</option><option value="Berlin-Schmargendorf
+">Berlin-Schmargendorf
+</option><option value="Berlin-Schmöckwitz
+">Berlin-Schmöckwitz
+</option><option value="Berlin-Schöneberg
+">Berlin-Schöneberg
+</option><option value="Berlin-Siemensstadt
+">Berlin-Siemensstadt
+</option><option value="Berlin-Spandau
+">Berlin-Spandau
+</option><option value="Berlin-Staaken
+">Berlin-Staaken
+</option><option value="Berlin-Stadtrandsiedlung Malchow
+">Berlin-Stadtrandsiedlung Malchow
+</option><option value="Berlin-Steglitz
+">Berlin-Steglitz
+</option><option value="Berlin-Tegel
+">Berlin-Tegel
+</option><option value="Berlin-Tempelhof
+">Berlin-Tempelhof
+</option><option value="Berlin-Tiergarten
+">Berlin-Tiergarten
+</option><option value="Berlin-Waidmannslust
+">Berlin-Waidmannslust
+</option><option value="Berlin-Wannsee
+">Berlin-Wannsee
+</option><option value="Berlin-Wartenberg
+">Berlin-Wartenberg
+</option><option value="Berlin-Wedding
+">Berlin-Wedding
+</option><option value="Berlin-Weißensee
+">Berlin-Weißensee
+</option><option value="Berlin-Westend
+">Berlin-Westend
+</option><option value="Berlin-Wilhelmsruh
+">Berlin-Wilhelmsruh
+</option><option value="Berlin-Wilhelmstadt
+">Berlin-Wilhelmstadt
+</option><option value="Berlin-Wilmersdorf
+">Berlin-Wilmersdorf
+</option><option value="Berlin-Wittenau
+">Berlin-Wittenau
+</option><option value="Berlin-Zehlendorf">Berlin-Zehlendorf</option>
+<option value="Brandenburg">Brandenburg</option>
+<option value="A.Bundesland">Another State</option>
+<option value="A.Land">Another Country</option>
+</select>
+      
+<input type="button" value="Save" onclick="visible()" style="color: #ffffff; background-color: #6273cf;">
+</div>
+
+<div id="2.1" hidden>
+     <label for="Zwei.Eins">2.1 Please explain your <b>approximate</b> location:</label>
+     <input id="Zwei.Eins" type="text" name="Zwei.Eins" class="input-field-1" maxlength="90" placeholder="e.g. City/Village">
+</div>
+        
+<script> function visible() {
+ var BB = document.getElementById("dropdown");
+ var selectedValue = BB.options[BB.selectedIndex].value;
+    if (selectedValue == "Brandenburg" || selectedValue == "A.Bundesland" || selectedValue == "A.Land") {
+    alert("Please answer question 2.1");
+    document.getElementById("2.1").hidden = false;
+    } else {
+    alert("Succesfully saved");
+    document.getElementById("2.1").hidden = true;
+    } };
+</script>
+
+<div class="form-row">
+<label for="Drei">3. Do you use the shuttle-services organized by Tesla?<span class="required"> *</span></label>
+          <select id="dropdown2" name="Drei" class="dropdown input-field-2" required>
+<option value="Ja,_weil_die_Autofahrt_länger_dauert">Yes, because the car journey takes longer.
+</option><option value="Ja,_weil_ich_gut_an_den_Shuttle-Service_herankomme">Yes, because I have easy access to the shuttle-service.
+</option><option value="Ja,_weil_der_Shuttle-Service_kostenlos_ist">Yes, because the shuttle-service is free.
+</option><option value="Nein,_weil_ich_mit_dem_Auto_schneller_bin">No, because I'm faster with the car.
+</option><option value="Nein,_weil_der_Shuttle-Service_nicht_auf_meinem_Weg_liegt">No, because the shuttle-service is not on my way.</option>
+<option value="Nein,_weil_ich_in_einer-Fahrgemeinschaft_bin">No, because I'm (travelling) in a carpool.</option>
+<option value="Sonstiges">Other</option>
+    </select></div>
+          
+
+<div class="form-row">
+          <label for="Vier">4. What is your preferred way to get to work?<span class="required"> *</span></label>
+          <ul id="Vier" name="Vier" style="list-style-type: none">
+            <li>
+              <label class="radio"><input type="radio" name="Anfahroption" value="Auto/Moped" required>Car/Motorbike<span class="radio-button"></span></label>
+            </li>
+            <li>
+              <label class="radio"><input type="radio" name="Anfahroption" value="ÖPNV" required>Public Transport<span class="radio-button"></span></label>
+            </li>
+            <li>
+              <label class="radio"><input type="radio" name="Anfahroption" value="Fahrrad/Laufen" required>Bicycle/Walking<span class="radio-button"></span></label>
+            </li>
+            <li>
+              <label class="radio"><input type="radio" name="Anfahroption" value="Tesla-Shuttleservice" required>Shuttle-Service<span class="radio-button"></span></label>
+            </li>
+          </ul>
+        </div>
+
+<div class="form-row">
+<label for="F�nf">5. What is the reason for your answer in question 4?<span class="required"> *</span></label>
+          <select id="dropdown3" name="Fünf" class="dropdown input-field-1" required>
+            <option value="Kostengrund">Cost</option>
+            <option value="Zeitgrund">Time</option>
+            <option value="Bequemlichkeit">Convenience</option>
+    </select></div>
+          
+<div class="form-row">
+          <label for="Sechs">6. Have you ever thought about changing your way to get to work? If yes, why?<span class="required"> *</span></label>
+<input id="Sechs" type="text" name="Sechs" class="input-field-2" maxlength="90" placeholder="Yes, because... / No, because..." required>
+</div>        
+
+<div class="form-row">
+          <label for="Sieben">7. Are you encountering problems on your <b>current</b> commute-route?<span class="required"> *</span></label>
+          <input id="Sieben" type="text" name="Sieben" class="input-field-2" maxlength="90" placeholder="e.g. Traffic jams, construction work, etc." required>
+</div>
+        
+<div class="form-row">
+          <label for="comments">Would you like to add anything else?</label>
+          <textarea id="comments" name="Kommentare" maxlength="90" class="comments input-field-2" placeholder="Remarks/Comments"></textarea>
+        </div>
+        <div class="form-row">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="credit">If you have any questions or problems, please contact gigafactory.survey@gmail.com.</div>
+</div>
