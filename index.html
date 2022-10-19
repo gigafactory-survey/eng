@@ -19,7 +19,7 @@
         </div>
         <div class="form-row">
           <label for="currentPos">2. From where do you drive to the Gigafactory? <span class="required">*</span></label>
-          <select id="dropdown" name="CurrentPos" class="dropdown input-field-1" required>
+          <select id="dropdown" name="Zwei" class="dropdown input-field-1" required>
             <option value="Berlin-Adlershof
 ">Berlin-Adlershof
 </option><option value="Berlin-Alt-Hohenschönhausen
@@ -120,8 +120,8 @@
 ">Berlin-Lichtenrade
 </option><option value="Berlin-Lichterfelde
 ">Berlin-Lichterfelde
-</option><option value="Berlin-L�bars
-">Berlin-L�bars
+</option><option value="Berlin-Lübars
+">Berlin-Lübars
 </option><option value="Berlin-Mahlsdorf
 ">Berlin-Mahlsdorf
 </option><option value="Berlin-Malchow
@@ -138,8 +138,8 @@
 ">Berlin-Mitte
 </option><option value="Berlin-Moabit
 ">Berlin-Moabit
-</option><option value="Berlin-M�ggelheim
-">Berlin-M�ggelheim
+</option><option value="Berlin-Müggelheim
+">Berlin-Müggelheim
 </option><option value="Berlin-Neu-Hohenschönhausen
 ">Berlin-Neu-Hohenschönhausen
 </option><option value="Berlin-Neukölln
@@ -223,7 +223,7 @@
 
 <div id="2.1" hidden>
      <label for="Zwei.Eins">2.1 Please explain your <b>approximate</b> location:</label>
-     <input id="Zwei.Eins" type="text" name="Zwei.Eins" class="input-field-1" maxlength="90" placeholder="e.g. City/Village">
+     <input id="Zwei.Eins" type="text" name="Zwei.Eins" class="input-field-1" maxlength="90" value="empty" placeholder="e.g. City/Village">
 </div>
         
 <script> function visible() {
@@ -233,7 +233,7 @@
     alert("Please answer question 2.1");
     document.getElementById("2.1").hidden = false;
     } else {
-    alert("Succesfully saved");
+    alert("Successfully saved");
     document.getElementById("2.1").hidden = true;
     } };
 </script>
